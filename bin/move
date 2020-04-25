@@ -12,7 +12,7 @@ input = gets.strip
 convert = input_to_index(input)
 calculation = convert + 1
 
-puts "You selected #{convert} + 1"
+puts "You selected #{calculation}"
 
 move(board, convert)
 
