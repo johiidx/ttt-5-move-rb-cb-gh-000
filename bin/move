@@ -11,7 +11,7 @@ input = gets.strip
 
 convert = input_to_index(input)
 
-puts "You selected #{convert}"
+puts "You selected #{convert} + 1"
 
 move(board, convert)
 
