@@ -11,6 +11,8 @@ input = gets.strip
 
 convert = input_to_index(input)
 
+puts "You selected #{convert}"
+
 move(board, convert)
 
 display_board(board)
