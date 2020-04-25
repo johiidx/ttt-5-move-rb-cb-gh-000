@@ -10,6 +10,7 @@ end
 def input_to_index(index)
   input = input.to_i
   return input
+  puts "You selected: #{index}"
 end
 
 def move(board, index, character = "X")
